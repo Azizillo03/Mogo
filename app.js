@@ -6,6 +6,7 @@ $(function() {
 
     next.on("click", function(event) {
         event.preventDefault();
+        document.querySelector('.gb').style.display = "none";
 
         let nex = $(this).data('next');
 
