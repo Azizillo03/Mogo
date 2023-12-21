@@ -9,7 +9,9 @@ ul {
     top: 37%;
     z-index: 1;
 }
-
+div:first-child {
+    display: block;
+}
 div {
     display: none;
 }
