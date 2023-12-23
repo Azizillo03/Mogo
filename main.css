@@ -9,7 +9,7 @@ ul {
     top: 37%;
     z-index: 1;
 }
-div:first-child {
+div:last-child {
     display: block;
 }
 div {
@@ -36,12 +36,6 @@ li {
 li:first-child {
     border-top:2px solid white;
     padding-top: 17px;
-}
-.dop {
-    display: block;
-}
-.foto {
-    display: none;
 }
 div:target {
     display: block;
